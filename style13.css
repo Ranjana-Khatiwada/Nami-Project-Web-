@@ -1,0 +1,19 @@
+.main {
+    display: grid;
+    height: 400px;
+    align-content:centre;
+    background-color: pink;
+    grid-gap:40px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.itm{
+background-color: green;
+border: 2px solid;
+padding: 10px;
+}
+
+.sub8{
+grid-area: 1 / 2 / 5 / 6;
+}
