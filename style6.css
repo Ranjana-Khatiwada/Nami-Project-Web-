@@ -1,0 +1,10 @@
+body {
+    /* Gradient background */
+    background: linear-gradient(red, green);
+
+    /* Text shadow added */
+    color: white;          /* text color */
+    font-size: 30px;       /* bigger text (optional) */
+    text-shadow: 3px 3px 5px black; /* x-offset, y-offset, blur, color */
+}
+ 
