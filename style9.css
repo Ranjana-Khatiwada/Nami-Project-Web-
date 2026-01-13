@@ -1,0 +1,22 @@
+div {
+width: 100px;
+height:100px;
+background-color: red;
+box-shadow: 10px 5px 3px 2px rgb(34, 34, 34);
+transition: width 4s;
+
+animation-name:test;
+animation-duration:4s;
+animation-iteration-count:4;
+}
+
+@keyframes test{
+from{background-color: red;}
+to{background-color: blue;} 
+
+0%{background-color: red}
+30%{background-color: pink}
+60%{background-color: acqua}
+100%{background-color: yellow}
+
+}
